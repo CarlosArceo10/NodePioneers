@@ -1,4 +1,4 @@
-function heroesThatStartsWith(heroes:string[], lettre: string  = 'a'): string[] {
+export function heroesThatStartsWith(heroes:string[], lettre: string  = 'a'): string[] {
     let newHereoes: string[] = [];
     
     heroes.map((hero) => {
